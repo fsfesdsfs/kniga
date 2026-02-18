@@ -4,7 +4,7 @@ books = [
   "1983"
   "The Great Gatsby"
   "To kill a Mockingbirf"
-  "PRide and predjuce:
+  "PRide and predjuce"
 ]
 st.title("Book Checkmark")
 st.write("Enter a book to check if it exists in the database")
