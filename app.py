@@ -1,9 +1,9 @@
 import streamlit as st
 books = [
-  "The hobit"
-  "1983"
-  "The Great Gatsby"
-  "To kill a Mockingbirf"
+  "The hobit",
+  "1983",
+  "The Great Gatsby",
+  "To kill a Mockingbirf",
   "PRide and predjuce"
 ]
 st.title("Book Checkmark")
