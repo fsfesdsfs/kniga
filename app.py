@@ -10,8 +10,8 @@ st.title("Book Checkmark")
 st.write("Enter a book to check if it exists in the database")
 user_input = st.text_input("Book Title")
 if st.button("Check Book"):
-if user_input.strip() == "" :
-st.warning("Please enter a book")
+  if user_input.strip() == "" :
+    st.warning("Please enter a book")
 elif user_input in books:
 st.succes("The book you entered does exist in the database")
 else
